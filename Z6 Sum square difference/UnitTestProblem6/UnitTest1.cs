@@ -14,5 +14,13 @@ namespace UnitTestProblem6
 
             Assert.AreEqual(3, result);
         }
+
+        [TestMethod]
+        public void TestSumOfFirst10Numbers()
+        {
+            int result = Problem6.CalculateSumOfFirstNNumbers(10);
+
+            Assert.AreEqual(55, result);
+        }
     }
 }
