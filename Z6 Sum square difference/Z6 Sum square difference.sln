@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z6 Sum square difference", "Z6 Sum square difference\Z6 Sum square difference.csproj", "{9F2F9D4A-5704-46C0-A5A9-7B0E38033EB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProblem6", "UnitTestProblem6\UnitTestProblem6.csproj", "{EB8CD1C9-FE0B-4439-A92B-0A552CD9031B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9F2F9D4A-5704-46C0-A5A9-7B0E38033EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F2F9D4A-5704-46C0-A5A9-7B0E38033EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F2F9D4A-5704-46C0-A5A9-7B0E38033EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8CD1C9-FE0B-4439-A92B-0A552CD9031B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8CD1C9-FE0B-4439-A92B-0A552CD9031B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8CD1C9-FE0B-4439-A92B-0A552CD9031B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8CD1C9-FE0B-4439-A92B-0A552CD9031B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
