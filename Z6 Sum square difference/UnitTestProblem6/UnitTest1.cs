@@ -44,7 +44,8 @@ namespace UnitTestProblem6
         {
             int result = Problem6.FindDifferenceBetweenSumOfSquaresAndSquareOfSum(2);
 
-            Assert.AreEqual(2, result);
+            Assert.AreEqual(4, result);
         }
+
     }
 }
