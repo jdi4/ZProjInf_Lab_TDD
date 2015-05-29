@@ -38,5 +38,13 @@ namespace UnitTestProblem6
 
             Assert.AreEqual(385, result);
         }
+
+        [TestMethod]
+        public void TestDifferenceBetweenSumOfSquaresAndSquareOfSumOfFirst2Numbers()
+        {
+            int result = Problem6.FindDifferenceBetweenSumOfSquaresAndSquareOfSum(2);
+
+            Assert.AreEqual(2, result);
+        }
     }
 }
