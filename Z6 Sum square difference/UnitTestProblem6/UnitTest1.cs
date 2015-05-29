@@ -47,5 +47,12 @@ namespace UnitTestProblem6
             Assert.AreEqual(4, result);
         }
 
+        [TestMethod]
+        public void TestDifferenceBetweenSumOfSquaresAndSquareOfSumOfFirst10Numbers()
+        {
+            int result = Problem6.FindDifferenceBetweenSumOfSquaresAndSquareOfSum(10);
+
+            Assert.AreEqual(2640, result);
+        }
     }
 }
