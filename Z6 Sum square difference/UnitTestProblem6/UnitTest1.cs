@@ -30,5 +30,13 @@ namespace UnitTestProblem6
 
             Assert.AreEqual(5, result);
         }
+
+        [TestMethod]
+        public void TestSumOfSquaresOfFirst10Numbers()
+        {
+            int result = Problem6.CalculateSumOfSquaresOfFirstNNumbers(10);
+
+            Assert.AreEqual(385, result);
+        }
     }
 }
