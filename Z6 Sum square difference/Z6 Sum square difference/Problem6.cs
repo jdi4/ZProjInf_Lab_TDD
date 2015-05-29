@@ -24,5 +24,10 @@ namespace Z6_Sum_square_difference
         {
             return (n * (n + 1)) / 2;
         }
+
+        public static int CalculateSumOfSquaresOfFirstNNumbers(int p)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

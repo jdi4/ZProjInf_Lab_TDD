@@ -22,5 +22,13 @@ namespace UnitTestProblem6
 
             Assert.AreEqual(55, result);
         }
+
+        [TestMethod]
+        public void TestSumOfSquaresOfFirst2Numbers()
+        {
+            int result = Problem6.CalculateSumOfSquaresOfFirstNNumbers(2);
+
+            Assert.AreEqual(5, result);
+        }
     }
 }
