@@ -45,7 +45,8 @@ namespace Z6_Sum_square_difference
 
         public static int FindDifferenceBetweenSumOfSquaresAndSquareOfSum(int n)
         {
-            return CalculateSumOfSquaresOfFirstNNumbers(n) - CalculateSumOfFirstNNumbers(n);
+            int normalSum = CalculateSumOfFirstNNumbers(n);
+            return normalSum * normalSum - CalculateSumOfSquaresOfFirstNNumbers(n);
         }
     }
 }
