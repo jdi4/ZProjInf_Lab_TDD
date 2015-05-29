@@ -49,9 +49,18 @@ namespace Z6_Sum_square_difference
             return normalSum * normalSum - CalculateSumOfSquaresOfFirstNNumbers(n);
         }
 
-        public static string Solve(int p)
+        public static string Solve(int n)
         {
-            throw new NotImplementedException();
+            if (n < 1)
+            {
+                return "The number must be equal to or greater than 1";
+            }
+            else
+            {
+                int solution = Problem6.FindDifferenceBetweenSumOfSquaresAndSquareOfSum(n);
+                return String.Format("The difference between the sum of the squares of the first {0} natural numbers and the square of the sum is {1}",
+                                n, solution);
+            }  
         }
     }
 }
