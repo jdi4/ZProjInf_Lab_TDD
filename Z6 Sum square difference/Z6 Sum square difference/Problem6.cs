@@ -48,5 +48,10 @@ namespace Z6_Sum_square_difference
             int normalSum = CalculateSumOfFirstNNumbers(n);
             return normalSum * normalSum - CalculateSumOfSquaresOfFirstNNumbers(n);
         }
+
+        public static string Solve(int p)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

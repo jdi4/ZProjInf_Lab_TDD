@@ -54,5 +54,15 @@ namespace UnitTestProblem6
 
             Assert.AreEqual(2640, result);
         }
+
+        [TestMethod]
+        public void TestSolveInputValidation()
+        {
+            string result1 = Problem6.Solve(-10);
+            string result2 = Problem6.Solve(0);
+
+            Assert.AreEqual("The number must be equal to or greater than 1", result1);
+            Assert.AreEqual("The number must be equal to or greater than 1", result2);
+        }
     }
 }
