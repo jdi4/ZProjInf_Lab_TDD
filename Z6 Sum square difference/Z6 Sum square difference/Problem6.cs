@@ -8,9 +8,14 @@ namespace Z6_Sum_square_difference
 {
     public class Problem6
     {
-        public static int CalculateSumOfFirstNNumbers(int p)
+        public static int CalculateSumOfFirstNNumbers(int n)
         {
-            throw new NotImplementedException();
+            int sum = 0;
+            for (int i = 1 ; i <= n; i++)
+            {
+                sum += i;
+            }
+            return sum;
         }
     }
 }
