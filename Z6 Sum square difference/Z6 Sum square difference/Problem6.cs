@@ -25,14 +25,22 @@ namespace Z6_Sum_square_difference
             return (n * (n + 1)) / 2;
         }
 
+
+        /// Public: Calculate sum of the squares of the first n natural numbers.
+        ///
+        /// n - nth number
+        ///
+        /// Examples
+        ///
+        ///     CalculateSumOfSquaresOfFirstNNumbers(2)
+        ///     # => 5
+        ///     CalculateSumOfSquaresOfFirstNNumbers(10)
+        ///     # => 385
+        ///
+        ///    Returns sum of the squares of the first n natural numbers
         public static int CalculateSumOfSquaresOfFirstNNumbers(int n)
         {
-            int sum = 0;
-            for (int i = 1; i <= n; i++)
-            {
-                sum += i*i;
-            }
-            return sum;
+            return ((n) * (n + 1) * (2 * n + 1)) / 6;
         }
     }
 }
