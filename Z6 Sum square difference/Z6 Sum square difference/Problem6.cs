@@ -8,14 +8,21 @@ namespace Z6_Sum_square_difference
 {
     public class Problem6
     {
+        /// Public: Calculate sum of the first n natural numbers.
+        ///
+        /// n - nth number
+        ///
+        /// Examples
+        ///
+        ///     CalculateSumOfFirstNNumbers(2)
+        ///     # => 3
+        ///     CalculateSumOfFirstNNumbers(10)
+        ///     # => 55
+        ///
+        ///    Returns sum of the first n natural numbers
         public static int CalculateSumOfFirstNNumbers(int n)
         {
-            int sum = 0;
-            for (int i = 1 ; i <= n; i++)
-            {
-                sum += i;
-            }
-            return sum;
+            return (n * (n + 1)) / 2;
         }
     }
 }
