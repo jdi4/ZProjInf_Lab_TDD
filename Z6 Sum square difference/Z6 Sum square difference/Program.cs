@@ -10,6 +10,8 @@ namespace Z6_Sum_square_difference
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Problem6.Solve(10));
+            Console.ReadKey();
         }
     }
 }
